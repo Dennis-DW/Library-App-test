@@ -1,0 +1,9 @@
+<h1 class="text-3xl font-bold mb-4">Books</h1>
+<% @books.each do |book| %>
+  <div class="mb-6 p-4 border border-gray-300 rounded-md shadow-sm">
+    <h2 class="text-2xl font-semibold mb-2"><%= link_to book.title, book_path(book), class: "text-indigo-600 hover:text-indigo-500" %></h2>
+    <p class="text-gray-700">Author: <%= book.author %></p>
+    <p class="text-gray-700">ISBN: <%= book.isbn %></p>
+    <p class="text-gray-700">Status: <%= book.available? ? "Available" : "Borrowed" %></p>
+  </div>
+<% end %>
