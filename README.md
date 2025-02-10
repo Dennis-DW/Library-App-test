@@ -61,8 +61,10 @@ Tailwind CSS is used for styling the frontend to ensure a modern and responsive 
 ![Test Results](app/assets/images/test.png)
 
 ## Demo Video
-[![Watch the video](app/assets/images/test.png)](app/assets/images/test1.mp4)
-
+<video width="600" controls>
+  <source src="app/assets/images/test1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Contributing
 1. Fork the repository.
