@@ -56,7 +56,6 @@ Library App is a web application that allows users to browse books, borrow them,
 ## Tailwind CSS Integration
 Tailwind CSS is used for styling the frontend to ensure a modern and responsive UI. Components are designed using utility-first classes for better flexibility and customization.
 
-
 ## Tests
 ![Test Results](app/assets/images/test.png)
 
@@ -73,4 +72,4 @@ Tailwind CSS is used for styling the frontend to ensure a modern and responsive 
 4. Push to the branch and submit a pull request.
 
 ## License
-This project is licensed under the MIT License.  add image for tedt section andvideo for diplay how web is
+This project is licensed under the MIT License.
